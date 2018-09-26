@@ -28,6 +28,9 @@ html, body {
   margin-top: 250px;
   text-transform: uppercase; }
 
+.inclined {
+  transform: skewY(-3deg); }
+
 .what-is-coba {
   height: 500px;
   background-color: white; }
@@ -51,6 +54,9 @@ html, body {
 .footer {
   height: 700px;
   background-color: #dfe0e0; }
+
+.reset {
+  transform: skewY(3deg); }
 
 /*# sourceMappingURL=style.css.map */
 .header {

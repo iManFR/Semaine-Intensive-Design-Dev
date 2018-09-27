@@ -1,12 +1,10 @@
-.header {
-  background-image: url(../images/headerbackground.png); }
-
 h1 {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 200;
-  margin: 30px 0px 60px 0px;
-  font-size: 32px; }
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 30px 0px 30px 0px;
+  font-size: 32px;
+  position: relative; }
 
 p {
   font-family: 'Raleway', sans-serif; }
@@ -15,20 +13,41 @@ p {
   transform: skewY(3deg); }
 
 .button {
-  margin: 40px auto 80px auto; }
+  margin: 50px auto 50px auto; }
   .button a {
     color: black;
-    padding: 10px;
+    padding: 10px 15px;
     border: 1px solid black;
-    width: 50px;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Raleway', sans-serif;
+    transition: ease-in 0.3s; }
   .button a:hover {
     background-color: black;
     color: white; }
 
+.vl_contain {
+  width: 100%;
+  min-height: 80px; }
+  .vl_contain .vl {
+    border-left: 2px solid #AE7C45;
+    min-height: 60px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    bottom: 1; }
+
+.header_background_content {
+  overflow: hidden !important; }
+  .header_background_content .header_background {
+    position: absolute;
+    top: -270px;
+    z-index: -2;
+    transform: skewY(-3deg);
+    height: 1000px; }
+
 .what_is_coba {
-  height: 600px; }
+  overflow-x: hidden;
+  min-height: 600px; }
   .what_is_coba .what_is_coba_content {
     min-height: 600px; }
     .what_is_coba .what_is_coba_content .what_is_coba_left {
@@ -36,7 +55,8 @@ p {
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
-      overflow: hidden; }
+      overflow: hidden;
+      min-height: 600px; }
     .what_is_coba .what_is_coba_content .what_is_coba_right {
       flex-direction: column;
       justify-content: space-around; }
@@ -44,7 +64,8 @@ p {
         text-align: center; }
 
 .health_coba {
-  margin-top: 200px;
+  overflow-x: hidden;
+  margin-top: 20px;
   transform: skewY(-3deg);
   min-height: 550px; }
   .health_coba .health_coba_left {
@@ -59,19 +80,30 @@ p {
     padding: 50px 30px; }
 
 .product_coba {
+  overflow-x: hidden;
   min-height: 400px;
   text-align: center; }
+  .product_coba img {
+    width: 75%;
+    padding: 25px; }
+  .product_coba p {
+    padding: 0px 25px; }
 
 .instagram_coba {
-  padding: 0px;
-  min-height: 800px;
+  overflow-x: hidden;
+  min-height: 1100px;
   background-color: #F6F6F6;
-  transform: skewY(-3deg); }
+  transform: skewY(-3deg);
+  overflow-y: hidden; }
+  .instagram_coba h1 {
+    margin-top: 30px;
+    padding-top: 60px; }
 
 .header {
   background-size: cover;
   background-repeat: no-repeat;
-  height: 750px; }
+  height: 750px;
+  position: relative; }
   .header .header_top {
     padding: 20px 0px; }
     .header .header_top .navbar img {
@@ -80,5 +112,11 @@ p {
     .header .header_top .navbar .navbar-nav a {
       margin: 0px 20px;
       color: white; }
+
+header {
+  overflow: hidden; }
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
 
 /*# sourceMappingURL=style.css.map */

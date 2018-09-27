@@ -2,16 +2,13 @@ html, body{
 
 }
 
-.header{
-    background-image: url(../images/headerbackground.png);
-}
-
 h1{
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-    margin: 30px 0px 60px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 30px 0px 30px 0px;
     font-size: 32px;
+    position: relative;
 }
 
 p{
@@ -23,14 +20,14 @@ p{
 }
 
 .button{
-    margin: 40px auto 80px auto;
+    margin: 50px auto 50px auto;
     a{
     color: black;
-    padding: 10px;
+    padding: 10px 15px;
     border: 1px solid black;
-    width: 50px;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
+    transition: ease-in 0.3s;
     }
     a:hover{
         background-color: black;
@@ -38,8 +35,36 @@ p{
     }
 }
 
+.vl_contain{
+    width: 100%;
+    min-height: 80px;
+    .vl{
+        border-left: 2px solid #AE7C45;
+        min-height: 60px;
+        position: absolute;
+        left: 50%;
+        margin-left: -3px;
+        bottom: 1;
+    }
+}
+
+.header_background_content{
+    overflow: hidden !important;
+    .header_background{
+        position: absolute;
+        top: -270px;
+        z-index: -2;
+        transform: skewY(-3deg);
+        height: 1000px;
+    }
+    img{
+    }
+}
+
+
 .what_is_coba{
-    height: 600px;
+    overflow-x: hidden;
+    min-height: 600px;
     .what_is_coba_content{
         min-height: 600px;
         .what_is_coba_left{
@@ -48,6 +73,7 @@ p{
             background-repeat: no-repeat;
             background-position: center;
             overflow: hidden;
+            min-height: 600px;
         }
         .what_is_coba_right{
             flex-direction: column;
@@ -60,7 +86,8 @@ p{
 }
 
 .health_coba{
-    margin-top: 200px;
+    overflow-x: hidden;
+    margin-top: 20px;
     transform: skewY(-3deg);
     min-height: 550px;
     .health_coba_left{
@@ -78,13 +105,26 @@ p{
 }
 
 .product_coba{
+    overflow-x: hidden;
     min-height: 400px;
     text-align: center;
+    img{
+        width: 75%;
+        padding: 25px;
+    }
+    p{
+        padding: 0px 25px;
+    }
 }
 
 .instagram_coba{
-    padding: 0px;
-    min-height: 800px;
+    overflow-x: hidden;
+    min-height: 1100px;
     background-color: #F6F6F6;
     transform: skewY(-3deg);
+    overflow-y: hidden;
+    h1{
+        margin-top: 30px;
+        padding-top: 60px;
+    }
 }

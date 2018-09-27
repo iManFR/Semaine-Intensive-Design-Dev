@@ -1,0 +1,48 @@
+$grey :#E2DEDE;
+
+nav{
+  ul{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    li{
+      list-style: none;
+      text-decoration: none;
+      a{
+        color: white;
+      }
+    }
+  }
+}
+.background-image{
+  position: relative;
+  width: 100%;
+  background-image: url("../images/we_eat _coffee.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 800px;
+}
+.coffebar1{
+  margin-top: 20%;
+  transform: skewY(-8deg);
+  background-color: $grey;
+  p{
+    margin: 20% 10%;
+    transform: skewY(8deg);
+  }
+}
+.bottom_coffee{
+  transform: skewY(-8deg);
+}
+.coffebar2{
+  transform: skewY(-8deg);
+  background-color: $grey;
+  p{
+    transform: skewY(8deg);
+    margin: 20% 10%;
+  }
+  img{
+    height: 440px;
+    object-fit: cover;
+  }
+}

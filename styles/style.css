@@ -77,7 +77,12 @@ p {
   .health_coba .health_coba_right {
     background-color: #F6F6F6;
     height: 550px;
-    padding: 50px 30px; }
+    padding: 50px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .health_coba .health_coba_right img {
+      width: 70%; }
 
 .product_coba {
   overflow-x: hidden;
@@ -99,22 +104,42 @@ p {
     margin-top: 30px;
     padding-top: 60px; }
 
+footer {
+  transform: skewY(-3deg);
+  background-color: black; }
+  footer .footer_column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px; }
+    footer .footer_column ul {
+      padding: 0px; }
+      footer .footer_column ul li {
+        list-style: none;
+        margin: 10px 0px; }
+        footer .footer_column ul li a {
+          color: white; }
+        footer .footer_column ul li a:hover {
+          text-decoration: none; }
+    footer .footer_column #instawhite {
+      width: 60px; }
+
 .header {
+  background-image: url(../images/header2.png);
+  background-position-y: center -200px;
   background-size: cover;
   background-repeat: no-repeat;
   height: 750px;
   position: relative; }
   .header .header_top {
-    padding: 20px 0px; }
+    padding: 20px 0px;
+    background-color: rgba(0, 0, 0, 0.8); }
     .header .header_top .navbar img {
       width: 150px;
       height: 100%; }
     .header .header_top .navbar .navbar-nav a {
       margin: 0px 20px;
       color: white; }
-
-header {
-  overflow: hidden; }
 
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }

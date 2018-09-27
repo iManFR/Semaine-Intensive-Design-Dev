@@ -18,32 +18,26 @@ p{
     transform: skewY(3deg);
 }
 
-.header{
-    background-image: url(../images/headerbackground.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 750px;
-    .header_top{
-        padding: 20px 0px;
-        .navbar{
-            img{
-                width: 150px;
-                height: 100%;
-            }
-            .navbar-nav{
-                a{
-                    margin: 0px 20px;
-                    color: white;
-                }
-            }
-        }
+.button{
+    margin: 40px auto 80px auto;
+    a{
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    width: 50px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    }
+    a:hover{
+        background-color: black;
+        color: white;
     }
 }
 
 .what_is_coba{
     height: 600px;
     .what_is_coba_content{
-        height: 600px;
+        min-height: 600px;
         .what_is_coba_left{
             background-image: url(../images/whatiscoba.png);
             background-size: contain;
@@ -59,28 +53,12 @@ p{
             }
         }
     }
-    .button{
-        margin-top: 30px;
-        a{
-        color: black;
-        padding: 10px;
-        border: 1px solid black;
-        width: 50px;
-        margin: 150px auto;
-        text-decoration: none;
-        font-family: 'Raleway', sans-serif;
-        }
-        a:hover{
-            background-color: black;
-            color: white;
-        }
-    }
 }
 
 .health_coba{
     margin-top: 200px;
     transform: skewY(-3deg);
-    height: 550px;
+    min-height: 550px;
     .health_coba_left{
         height: 550px;
         background-image: url(../images/healthcoba.jpg);
@@ -93,4 +71,15 @@ p{
         height: 550px;
         padding: 50px 30px;
     }
+}
+
+.product_coba{
+    min-height: 400px;
+    text-align: center;
+}
+
+.instagram_coba{
+    min-height: 800px;
+    background-color: #F6F6F6;
+    transform: skewY(-3deg);
 }

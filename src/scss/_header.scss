@@ -1,0 +1,21 @@
+.header{
+    background-image: url(../images/headerbackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    .header_top{
+        padding: 20px 0px;
+        .navbar{
+            img{
+                width: 150px;
+                height: 100%;
+            }
+            .navbar-nav{
+                a{
+                    margin: 0px 20px;
+                    color: white;
+                }
+            }
+        }
+    }
+}

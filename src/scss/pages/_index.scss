@@ -1,74 +1,96 @@
 html, body{
-    padding: 0;
-    margin: 0;
-}
-
-.headerr{
-    height: 920px;
-    background-image: url('../images/cafebackgroundflou.png');
-    background-position: center;
-    background-size: cover;
-}
-
-#header_top{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-#header_top a{
-    color: white;
-}
-
-#header_top li, img{
-    list-style: none;
-    text-transform: none;
-    padding: 35px 40px;
-}
-
-#header_title{
-    color: white;
-    display: flex;
-    justify-content: center;
-    margin-top: 250px;
-    text-transform:uppercase;
-}
-
-.inclined{
-    transform: skewY(-3deg);
-}
-
-.what-is-coba{
-    height: 500px;
-    background-color:  white;
-}
-
-.what-is-coba h1{
-    display: flex;
-    justify-content: center;
-}
-
-.two-option{
 
 }
 
-.our-coffee-is{
-    height: 700px;
-    background-color: rgb(223, 224, 224);
+h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    margin: 30px 0px 60px 0px;
+    font-size: 32px;
 }
-.two-option{
-    height: 700px;
-    background-color:  rgb(223, 224, 224);
+
+p{
+    font-family: 'Raleway', sans-serif;
 }
-.follow-instagram{
-    height: 500px;
-    background-color: white;
-}
-.footer{
-    height: 700px;
-    background-color:  rgb(223, 224, 224);
-}
+
 .reset{
     transform: skewY(3deg);
 }
-/*# sourceMappingURL=style.css.map */
+
+.header{
+    background-image: url(../images/headerbackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    .header_top{
+        padding: 20px 0px;
+        .navbar{
+            img{
+                width: 150px;
+                height: 100%;
+            }
+            .navbar-nav{
+                a{
+                    margin: 0px 20px;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.what_is_coba{
+    height: 600px;
+    .what_is_coba_content{
+        height: 600px;
+        .what_is_coba_left{
+            background-image: url(../images/whatiscoba.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            overflow: hidden;
+        }
+        .what_is_coba_right{
+            flex-direction: column;
+            justify-content: space-around;
+            p{
+                text-align: center;
+            }
+        }
+    }
+    .button{
+        margin-top: 30px;
+        a{
+        color: black;
+        padding: 10px;
+        border: 1px solid black;
+        width: 50px;
+        margin: 150px auto;
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        }
+        a:hover{
+            background-color: black;
+            color: white;
+        }
+    }
+}
+
+.health_coba{
+    margin-top: 200px;
+    transform: skewY(-3deg);
+    height: 550px;
+    .health_coba_left{
+        height: 550px;
+        background-image: url(../images/healthcoba.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .health_coba_right{
+        background-color: #F6F6F6;
+        height: 550px;
+        padding: 50px 30px;
+    }
+}

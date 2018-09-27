@@ -41,29 +41,11 @@ nav{
     h1 {
       color: white;
       font-family: 'Roboto', sans-serif;
+      text-align: center;
       padding: 15%;
-      text-align: center;
     }
 }
 
-.project {
-  margin-top: 6%;
-    h2 {
-      color: black;
-      text-align: center;
-      font-family: 'Raleway', sans-serif;
-    }
-}
-
-.what_is_the_project_right {
-    p {
-      color: black;
-      text-align: right;
-      font-family: 'Raleway', sans-serif;
-      margin: 20% 10%;
-      transform: skewY(8deg);
-    }
-}
 .reset{
     transform: skewY(3deg);
 }
@@ -85,26 +67,70 @@ nav{
 }
 
 .coffebar1{
-  margin-top: 8%;
-  transform: skewY(-4deg);
+  margin-top: 7%;
+  transform: skewY(-3deg);
   background-color: $grey;
   p{
     margin: 20% 10%;
-    transform: skewY(4deg);
+    transform: skewY(3deg);
   }
 }
 .bottom_coffee{
-  transform: skewY(-4deg);
+  transform: skewY(-3deg);
 }
 .coffebar2{
-  transform: skewY(-4deg);
+  transform: skewY(-3deg);
   background-color: $grey;
   p{
-    transform: skewY(4deg);
+    transform: skewY(3deg);
     margin: 20% 10%;
   }
   img{
     height: 440px;
     object-fit: cover;
+  }
+}
+.demi{
+  width: 750px;
+  height: 350px;
+  padding: 10px;
+  background-position: center;
+  background-size: cover;
+}
+.tier{
+  height: 550px;
+  width: 450px;
+  background-position: center;
+  background-size: cover;
+}
+
+.rouleau{
+  background-image: url("../images/rouleau.jpg");
+}
+.barr{
+background-image: url("../images/bar.jpg");
+}
+.marteau{
+  background-image: url("../images/marteau.png");
+}
+.coffebeans{
+  background-image: url("../images/coffebeans.jpg");
+}
+.img_coffe{
+  background-image: url("../images/img_coffe.jpg");
+}
+h2{
+  margin: 5% 20%;
+}
+.our_team span{
+  border-left: solid black 2px;
+  padding: 20px;
+}
+.team{
+  border-radius: 100%;
+  margin: 20px;
+}
+.team_div{
+  p{
   }
 }

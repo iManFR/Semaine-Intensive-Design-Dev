@@ -8,43 +8,101 @@ nav ul {
     nav ul li a {
       color: white; }
 
-.header {
+.header .header_top {
+  background-color: black;
+  padding: 20px 0px; }
+  .header .header_top .navbar img {
+    width: 150px;
+    height: 100%; }
+  .header .header_top .navbar .navbar-nav a {
+    margin: 0px 20px;
+    color: white; }
+
+.banner {
   background-image: url("../images/tabletgloves.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 750px; }
-  .header .header_top {
-    background-color: black;
-    padding: 20px 0px; }
-    .header .header_top .navbar img {
-      width: 150px;
-      height: 100%; }
-    .header .header_top .navbar .navbar-nav a {
-      margin: 0px 20px;
-      color: white; }
+  .banner h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 15%; }
 
-body {
-  font-family: 'Roboto', sans-serif; }
+.reset {
+  transform: skewY(3deg); }
+
+.button {
+  margin: 40px auto 80px auto; }
+  .button a {
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    width: 50px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif; }
+  .button a:hover {
+    background-color: black;
+    color: white; }
 
 .coffebar1 {
-  margin-top: 20%;
-  transform: skewY(-8deg);
+  margin-top: 7%;
+  transform: skewY(-3deg);
   background-color: #E2DEDE; }
   .coffebar1 p {
     margin: 20% 10%;
-    transform: skewY(8deg); }
+    transform: skewY(3deg); }
 
 .bottom_coffee {
-  transform: skewY(-8deg); }
+  transform: skewY(-3deg); }
 
 .coffebar2 {
-  transform: skewY(-8deg);
+  transform: skewY(-3deg);
   background-color: #E2DEDE; }
   .coffebar2 p {
-    transform: skewY(8deg);
+    transform: skewY(3deg);
     margin: 20% 10%; }
   .coffebar2 img {
     height: 440px;
     object-fit: cover; }
+
+.demi {
+  width: 750px;
+  height: 350px;
+  padding: 10px;
+  background-position: center;
+  background-size: cover; }
+
+.tier {
+  height: 550px;
+  width: 450px;
+  background-position: center;
+  background-size: cover; }
+
+.rouleau {
+  background-image: url("../images/rouleau.jpg"); }
+
+.barr {
+  background-image: url("../images/bar.jpg"); }
+
+.marteau {
+  background-image: url("../images/marteau.png"); }
+
+.coffebeans {
+  background-image: url("../images/coffebeans.jpg"); }
+
+.img_coffe {
+  background-image: url("../images/img_coffe.jpg"); }
+
+h2 {
+  margin: 5% 20%; }
+
+.our_team span {
+  border-left: solid black 2px;
+  padding: 20px; }
+
+.team {
+  border-radius: 100%;
+  margin: 20px; }
 
 /*# sourceMappingURL=project_app.css.map */

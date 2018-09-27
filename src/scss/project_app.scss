@@ -14,16 +14,7 @@ nav{
   }
 }
 
-.header{
-    background-image: url("../images/tabletgloves.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 750px;
-    h1 {
-      font-family: 'Roboto', sans-serif;
-      text-align: center;
-      margin-top: 60px;
-    }
+.header {
     .header_top{
         background-color: black;
         padding: 20px 0px;
@@ -42,7 +33,18 @@ nav{
     }
 }
 
-
+.banner {
+  background-image: url("../images/tabletgloves.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 750px;
+  h1 {
+    color: white;
+    padding: 15%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+}
 
 body {
   font-family: 'Roboto', sans-serif;

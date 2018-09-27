@@ -1,6 +1,6 @@
 $grey :#E2DEDE;
 // @@import "page/project";
-nav{
+/*nav{
   ul{
     margin-top: 20px;
     display: flex;
@@ -13,8 +13,8 @@ nav{
       }
     }
   }
-}
-.header{
+}*/
+/*.header{
     .header_top{
         background-color: black;
         padding: 20px 0px;
@@ -26,13 +26,13 @@ nav{
             .navbar-nav{
                 a{
                     margin: 0px 20px;
-                    color: white;
+                    color:  white;
                 }
             }
         }
     }
-}
-.banner{
+}*/
+/*.banner{
   background-image: url("../images/tabletgloves.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -43,7 +43,7 @@ nav{
     padding: 16%;
     text-align: center;
   }
-}
+}*/
 .reset{
     transform: skewY(3deg);
 }

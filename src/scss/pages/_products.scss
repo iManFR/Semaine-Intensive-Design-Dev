@@ -1,15 +1,15 @@
-body{
+/*body{
     margin: 0;
     padding: 0;
 }
 
 html{
     width: 100%;
-}
+}*/
 
-.header_top{
+/*.header_top{
     background-color: black;
-}
+}*/
 
 #navbarNavAltMarkup a{
     padding: 0 40px;
@@ -47,7 +47,7 @@ html{
     align-items: center;
 }
 
-.footerproduit{
+/*.footerproduit{
     background-color: black;
     min-height: 200px;
 }
@@ -78,22 +78,8 @@ html{
 .footer_column{
     flex-direction: column;
     align-items: center;
-}
+}*/
 
 .benefice{
     margin: 25px 0;
-}
-
-.vl_contain{
-    width: 100%;
-    min-height: 80px;
-}
-
-.vl{
-    border-left: 2px solid #AE7C45;
-    min-height: 60px;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    bottom: 1;
 }

@@ -8,26 +8,20 @@ nav ul {
     nav ul li a {
       color: white; }
 
-.header .header_top {
-  background-color: black;
-  padding: 20px 0px; }
-  .header .header_top .navbar img {
-    width: 150px;
-    height: 100%; }
-  .header .header_top .navbar .navbar-nav a {
-    margin: 0px 20px;
-    color: white; }
-
-.banner {
+.header {
   background-image: url("../images/tabletgloves.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 750px; }
-  .banner h1 {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    padding: 15%; }
+  .header .header_top {
+    background-color: black;
+    padding: 20px 0px; }
+    .header .header_top .navbar img {
+      width: 150px;
+      height: 100%; }
+    .header .header_top .navbar .navbar-nav a {
+      margin: 0px 20px;
+      color: white; }
 
 .reset {
   transform: skewY(3deg); }
@@ -67,15 +61,16 @@ nav ul {
     object-fit: cover; }
 
 .demi {
-  width: 750px;
+  width: 550px;
   height: 350px;
   padding: 10px;
   background-position: center;
   background-size: cover; }
 
 .tier {
-  height: 550px;
-  width: 450px;
+  height: 500px;
+  width: 360px;
+  margin-top: 20px;
   background-position: center;
   background-size: cover; }
 

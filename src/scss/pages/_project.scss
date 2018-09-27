@@ -89,6 +89,7 @@ $grey :#E2DEDE;
   background-color: $grey;
   height: 440px;
   margin-bottom: 70px;
+  overflow-x: hidden;
   p{
     transform: skewY(3deg);
     padding: 30px;
@@ -128,9 +129,11 @@ background-image: url("../images/bar.jpg");
 .img_coffe{
   background-image: url("../images/img_coffe.jpg");
 }
-h2{
-  margin: 5% 20%;
+
+.our_team{
+    margin-top:70px;
 }
+
 .our_team span{
   border-left: solid black 2px;
   padding: 20px;

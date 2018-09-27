@@ -11,6 +11,13 @@ html{
     background-color: black;
 }*/
 
+#banner_product{
+    background-image: url("../images/ourrproduct.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center -200px;
+}
+
 .our_products{
     height: 380px;
 }
@@ -29,9 +36,16 @@ html{
     height: 300px;
     background-image: url(../images/slide1.jpg);
     background-position: -200px center;
-    margin: 20px 0px;
+    text-align: center;
+    transform: skewY(-3deg);
+    margin: 60px auto;
     h2{
         color: white;
+        padding: 15px;
+    }
+    p{
+        color:white;
+        padding: 15px;
     }
 }
 
@@ -45,6 +59,7 @@ html{
     display: flex;
     justify-content:space-around;
     align-items: center;
+    margin: 20px auto;
 }
 
 .benefice{

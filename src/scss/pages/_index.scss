@@ -22,6 +22,7 @@ p{
 .button{
     margin: 50px auto 50px auto;
     a{
+    font-size: 20px;
     color: black;
     padding: 10px 15px;
     border: 1px solid black;
@@ -62,7 +63,6 @@ p{
 }
 
 .title_header{
-    margin: 220px auto;
     color: white;
 }
 
@@ -85,6 +85,8 @@ p{
             justify-content: space-around;
             p{
                 text-align: center;
+                font-size: 24px;
+                padding: 20px;
             }
         }
     }
@@ -119,6 +121,9 @@ p{
     overflow-x: hidden;
     min-height: 400px;
     text-align: center;
+    h2{
+        font-family: 'Roboto', sans-serif;
+    }
     img{
         width: 75%;
         padding: 25px;

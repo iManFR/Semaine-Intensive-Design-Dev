@@ -26,8 +26,11 @@
     background-position: center -200px;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 750px;
+    height: 750px;
     position: relative;
+    h1{
+        margin: 250px auto;
+    }
 }
 
 .navbar{
@@ -41,6 +44,8 @@
             margin: 0px 20px;
             color: white;
             margin: 10px 0px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
         }
     }
 }

@@ -1,5 +1,4 @@
 $grey :#E2DEDE;
-@import "header";
 nav{
   ul{
     margin-top: 20px;
@@ -14,14 +13,28 @@ nav{
     }
   }
 }
-.background-image{
-  position: relative;
-  width: 100%;
-  background-image: url("../images/we_eat _coffee.jpg");
-  background-repeat: no-repeat;
-  background-size:cover;
-  height: 800px;
+.header{
+    background-image: url("../images/tabletgloves.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    .header_top{
+        padding: 20px 0px;
+        .navbar{
+            img{
+                width: 150px;
+                height: 100%;
+            }
+            .navbar-nav{
+                a{
+                    margin: 0px 20px;
+                    color: white;
+                }
+            }
+        }
+    }
 }
+
 .coffebar1{
   margin-top: 20%;
   transform: skewY(-8deg);

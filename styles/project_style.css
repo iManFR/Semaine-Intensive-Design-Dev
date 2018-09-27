@@ -1,5 +1,15 @@
+nav ul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around; }
+  nav ul li {
+    list-style: none;
+    text-decoration: none; }
+    nav ul li a {
+      color: white; }
+
 .header {
-  background-image: url(../images/headerbackground.png);
+  background-image: url("../images/tabletgloves.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 750px; }
@@ -11,24 +21,6 @@
     .header .header_top .navbar .navbar-nav a {
       margin: 0px 20px;
       color: white; }
-
-nav ul {
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-around; }
-  nav ul li {
-    list-style: none;
-    text-decoration: none; }
-    nav ul li a {
-      color: white; }
-
-.background-image {
-  position: relative;
-  width: 100%;
-  background-image: url("../images/we_eat _coffee.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 800px; }
 
 .coffebar1 {
   margin-top: 20%;

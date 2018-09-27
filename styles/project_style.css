@@ -1,0 +1,54 @@
+.header {
+  background-image: url(../images/headerbackground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 750px; }
+  .header .header_top {
+    padding: 20px 0px; }
+    .header .header_top .navbar img {
+      width: 150px;
+      height: 100%; }
+    .header .header_top .navbar .navbar-nav a {
+      margin: 0px 20px;
+      color: white; }
+
+nav ul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around; }
+  nav ul li {
+    list-style: none;
+    text-decoration: none; }
+    nav ul li a {
+      color: white; }
+
+.background-image {
+  position: relative;
+  width: 100%;
+  background-image: url("../images/we_eat _coffee.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px; }
+
+.coffebar1 {
+  margin-top: 20%;
+  transform: skewY(-8deg);
+  background-color: #E2DEDE; }
+  .coffebar1 p {
+    margin: 20% 10%;
+    transform: skewY(8deg); }
+
+.bottom_coffee {
+  transform: skewY(-8deg); }
+
+.coffebar2 {
+  transform: skewY(-8deg);
+  background-color: #E2DEDE; }
+  .coffebar2 p {
+    transform: skewY(8deg);
+    margin: 20% 10%; }
+  .coffebar2 img {
+    height: 440px;
+    object-fit: cover; }
+
+/*# sourceMappingURL=project_style.css.map */

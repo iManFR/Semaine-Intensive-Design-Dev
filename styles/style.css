@@ -45,6 +45,10 @@ p {
     transform: skewY(-3deg);
     height: 1000px; }
 
+.title_header {
+  margin: 220px auto;
+  color: white; }
+
 .what_is_coba {
   overflow-x: hidden;
   min-height: 600px; }
@@ -104,6 +108,25 @@ p {
     margin-top: 30px;
     padding-top: 60px; }
 
+.kickstarter {
+  min-height: 350px;
+  transform: skewY(-3deg);
+  background-image: url(../images/kickstarter.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 2px solid black; }
+  .kickstarter .kickstarter_content {
+    margin: 20px 0px;
+    color: white;
+    text-align: center; }
+    .kickstarter .kickstarter_content h3 {
+      margin: 10px auto; }
+    .kickstarter .kickstarter_content img {
+      border-radius: 10px;
+      width: 170px;
+      margin: 10px auto; }
+
 footer {
   transform: skewY(-3deg);
   background-color: black; }
@@ -124,22 +147,50 @@ footer {
     footer .footer_column #instawhite {
       width: 60px; }
 
-.header {
+/*.header{
+    background-image: url(../images/header2.png);
+    background-position: center -200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    position: relative;
+    .header_top{
+        background-color: rgba(0, 0, 0, 0.8);
+        .navbar{
+            img{
+                width: 150px;
+                height: 100%;
+            }
+            .navbar-nav{
+                a{
+                    margin: 0px 20px;
+                    color: white;
+                }
+            }
+        }
+    }
+}*/
+#header_home {
   background-image: url(../images/header2.png);
-  background-position-y: center -200px;
+  background-position: center -200px;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 750px;
+  min-height: 750px;
   position: relative; }
-  .header .header_top {
-    padding: 20px 0px;
-    background-color: rgba(0, 0, 0, 0.8); }
-    .header .header_top .navbar img {
-      width: 150px;
-      height: 100%; }
-    .header .header_top .navbar .navbar-nav a {
-      margin: 0px 20px;
-      color: white; }
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8); }
+  .navbar img {
+    width: 150px;
+    height: 100%; }
+  .navbar .navbar-nav a {
+    margin: 0px 20px;
+    color: white;
+    margin: 10px 0px; }
+
+#navbarNavAltMarkup a {
+  padding-left: 40px;
+  color: white; }
 
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
@@ -155,10 +206,6 @@ html{
 /*.header_top{
     background-color: black;
 }*/
-#navbarNavAltMarkup a {
-  padding: 0 40px;
-  color: white; }
-
 .our_products {
   height: 380px; }
 
@@ -171,7 +218,11 @@ html{
 
 .ingredient {
   height: 300px;
-  background-color: red; }
+  background-image: url(../images/slide1.jpg);
+  background-position: -200px center;
+  margin: 20px 0px; }
+  .ingredient h2 {
+    color: white; }
 
 .list_ingredient {
   display: flex;
@@ -182,6 +233,9 @@ html{
   display: flex;
   justify-content: space-around;
   align-items: center; }
+
+.benefice {
+  margin: 40px 0px; }
 
 /*.footerproduit{
     background-color: black;
@@ -215,9 +269,6 @@ html{
     flex-direction: column;
     align-items: center;
 }*/
-.benefice {
-  margin: 25px 0; }
-
 /*nav{
   ul{
     margin-top: 20px;
@@ -250,18 +301,19 @@ html{
         }
     }
 }*/
-/*.banner{
+.banner {
   background-image: url("../images/tabletgloves.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 750px;
-  h1{
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .banner h1 {
     color: white;
     font-style: 'Roboto',sans-serif;
-    padding: 16%;
-    text-align: center;
-  }
-}*/
+    text-align: center; }
+
 .reset {
   transform: skewY(3deg); }
 
@@ -281,20 +333,27 @@ html{
 .coffebar1 {
   margin-top: 7%;
   transform: skewY(-3deg);
-  background-color: #E2DEDE; }
+  background-color: #E2DEDE;
+  overflow-x: hidden;
+  min-height: 600px; }
   .coffebar1 p {
     margin: 20% 10%;
     transform: skewY(3deg); }
+  .coffebar1 img {
+    overflow: hidden;
+    min-height: 600px; }
 
 .bottom_coffee {
   transform: skewY(-3deg); }
 
 .coffebar2 {
   transform: skewY(-3deg);
-  background-color: #E2DEDE; }
+  background-color: #E2DEDE;
+  height: 440px;
+  margin-bottom: 70px; }
   .coffebar2 p {
     transform: skewY(3deg);
-    margin: 20% 10%; }
+    padding: 30px; }
   .coffebar2 img {
     height: 440px;
     object-fit: cover; }

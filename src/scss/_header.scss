@@ -1,12 +1,11 @@
-.header{
+/*.header{
     background-image: url(../images/header2.png);
-    background-position-y: center -200px;
+    background-position: center -200px;
     background-size: cover;
     background-repeat: no-repeat;
     height: 750px;
     position: relative;
     .header_top{
-        padding: 20px 0px;
         background-color: rgba(0, 0, 0, 0.8);
         .navbar{
             img{
@@ -21,6 +20,34 @@
             }
         }
     }
+}*/
+#header_home{
+    background-image: url(../images/header2.png);
+    background-position: center -200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 750px;
+    position: relative;
+}
+
+.navbar{
+    background-color: $background-header-color;
+    img{
+        width: 150px;
+        height: 100%;
+    }
+    .navbar-nav{
+        a{
+            margin: 0px 20px;
+            color: white;
+            margin: 10px 0px;
+        }
+    }
+}
+
+#navbarNavAltMarkup a{
+    padding-left: 40px;
+    color: white;
 }
 
 header{

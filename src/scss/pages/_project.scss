@@ -32,18 +32,20 @@ $grey :#E2DEDE;
         }
     }
 }*/
-/*.banner{
+.banner{
   background-image: url("../images/tabletgloves.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 750px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   h1{
     color: white;
     font-style: 'Roboto',sans-serif;
-    padding: 16%;
     text-align: center;
   }
-}*/
+}
 .reset{
     transform: skewY(3deg);
 }
@@ -68,9 +70,15 @@ $grey :#E2DEDE;
   margin-top: 7%;
   transform: skewY(-3deg);
   background-color: $grey;
+  overflow-x: hidden;
+  min-height: 600px;
   p{
     margin: 20% 10%;
     transform: skewY(3deg);
+  }
+  img{
+      overflow: hidden;
+      min-height: 600px;
   }
 }
 .bottom_coffee{
@@ -79,9 +87,11 @@ $grey :#E2DEDE;
 .coffebar2{
   transform: skewY(-3deg);
   background-color: $grey;
+  height: 440px;
+  margin-bottom: 70px;
   p{
     transform: skewY(3deg);
-    margin: 20% 10%;
+    padding: 30px;
   }
   img{
     height: 440px;

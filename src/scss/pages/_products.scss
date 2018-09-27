@@ -11,11 +11,6 @@ html{
     background-color: black;
 }*/
 
-#navbarNavAltMarkup a{
-    padding: 0 40px;
-    color: white;
-}
-
 .our_products{
     height: 380px;
 }
@@ -32,7 +27,12 @@ html{
 
 .ingredient{
     height: 300px;
-    background-color: red;
+    background-image: url(../images/slide1.jpg);
+    background-position: -200px center;
+    margin: 20px 0px;
+    h2{
+        color: white;
+    }
 }
 
 .list_ingredient{
@@ -45,6 +45,10 @@ html{
     display: flex;
     justify-content:space-around;
     align-items: center;
+}
+
+.benefice{
+    margin: 40px 0px;
 }
 
 /*.footerproduit{
@@ -79,7 +83,3 @@ html{
     flex-direction: column;
     align-items: center;
 }*/
-
-.benefice{
-    margin: 25px 0;
-}

@@ -167,31 +167,3 @@ p{
         }
     }
 }
-
-
-footer{
-    transform: skewY(-3deg);
-    background-color: black;
-    .footer_column{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 50px 0px;
-        ul{
-            padding: 0px;
-            li{
-                list-style: none;
-                margin: 10px 0px;
-                a{
-                    color: white;
-                }
-                a:hover{
-                    text-decoration: none;
-                }
-            }
-        }
-        #instawhite{
-            width: 60px;
-        }
-    }
-}
